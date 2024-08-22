@@ -12,7 +12,7 @@ public class Day5 {
 		System.out.println("Hello Day2_PL");
 		System.out.println(urlname);
 		System.out.println(keyval);
-		System.out.println("**************************");
+		System.out.println("=======================");
 	}
 	
 @Test(dataProvider = "getData")
