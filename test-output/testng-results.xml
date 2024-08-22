@@ -1,52 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-15T12:49:17 IST" name="Suite" finished-at="2024-08-15T12:49:17 IST" duration-ms="201">
+  <suite started-at="2024-08-22T16:36:43 IST" name="Default suite" finished-at="2024-08-22T16:36:43 IST" duration-ms="181">
     <groups>
-      <group name="SmokeTest">
-        <method signature="TNGClass.demo()[pri:0, instance:TNGPkg.TNGClass@6e6f2380]" name="demo" class="TNGPkg.TNGClass"/>
-      </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2024-08-15T12:49:17 IST" name="Personal Loan" finished-at="2024-08-15T12:49:17 IST" duration-ms="99">
-      <class name="TNGPkg.TNGClass">
-        <test-method signature="demo()[pri:0, instance:TNGPkg.TNGClass@6e6f2380]" started-at="2024-08-15T12:49:17 IST" name="demo" finished-at="2024-08-15T12:49:17 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- TNGPkg.TNGClass -->
-      <class name="TNGPkg.Day4">
-        <test-method signature="LoginAPIHomeLoan()[pri:0, instance:TNGPkg.Day4@72cc7e6f]" started-at="2024-08-15T12:49:17 IST" name="LoginAPIHomeLoan" finished-at="2024-08-15T12:49:17 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPIHomeLoan -->
-        <test-method is-config="true" signature="afterallthetest()[pri:0, instance:TNGPkg.Day4@72cc7e6f]" started-at="2024-08-15T12:49:17 IST" name="afterallthetest" finished-at="2024-08-15T12:49:17 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterallthetest -->
-      </class> <!-- TNGPkg.Day4 -->
-    </test> <!-- Personal Loan -->
-    <test started-at="2024-08-15T12:49:17 IST" name="Car Loan" finished-at="2024-08-15T12:49:17 IST" duration-ms="19">
-      <class name="TNGPkg.Day3">
-        <test-method is-config="true" signature="checkingBeforemethod()[pri:0, instance:TNGPkg.Day3@c430e6c]" started-at="2024-08-15T12:49:17 IST" name="checkingBeforemethod" finished-at="2024-08-15T12:49:17 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkingBeforemethod -->
-        <test-method signature="LoginAPICarLoan()[pri:0, instance:TNGPkg.Day3@c430e6c]" started-at="2024-08-15T12:49:17 IST" name="LoginAPICarLoan" finished-at="2024-08-15T12:49:17 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPICarLoan -->
-        <test-method signature="WebLoginCarLoan(java.lang.String)[pri:0, instance:TNGPkg.Day3@c430e6c]" started-at="2024-08-15T12:49:17 IST" name="WebLoginCarLoan" finished-at="2024-08-15T12:49:17 IST" duration-ms="0" status="FAIL">
+    <test started-at="2024-08-22T16:36:43 IST" name="Default test" finished-at="2024-08-22T16:36:43 IST" duration-ms="181">
+      <class name="TNGPkg.Day5">
+        <test-method signature="checkDay2(java.lang.String,java.lang.String)[pri:0, instance:TNGPkg.Day5@8458f04]" started-at="2024-08-22T16:36:43 IST" name="checkDay2" finished-at="2024-08-22T16:36:43 IST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
-Parameter 'URL' is required by @Test on method WebLoginCarLoan but has not been marked @Optional or defined
-in D:\Java Programs\TNGJava\testng.xml]]>
+Parameter 'URL' is required by @Test on method checkDay2 but has not been marked @Optional or defined
+in C:\Users\piyus\AppData\Local\Temp\testng-eclipse-765602527\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
-Parameter 'URL' is required by @Test on method WebLoginCarLoan but has not been marked @Optional or defined
-in D:\Java Programs\TNGJava\testng.xml
+Parameter 'URL' is required by @Test on method checkDay2 but has not been marked @Optional or defined
+in C:\Users\piyus\AppData\Local\Temp\testng-eclipse-765602527\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:264)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -79,8 +50,60 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLoginCarLoan -->
-      </class> <!-- TNGPkg.Day3 -->
-    </test> <!-- Car Loan -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- checkDay2 -->
+        <test-method signature="demoDay2()[pri:0, instance:TNGPkg.Day5@8458f04]" started-at="2024-08-22T16:36:43 IST" name="demoDay2" finished-at="2024-08-22T16:36:43 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoDay2 -->
+        <test-method signature="newcheck(java.lang.String,java.lang.String)[pri:0, instance:TNGPkg.Day5@8458f04]" started-at="2024-08-22T16:36:43 IST" name="newcheck" data-provider="getData" finished-at="2024-08-22T16:36:43 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcheck -->
+        <test-method signature="newcheck(java.lang.String,java.lang.String)[pri:0, instance:TNGPkg.Day5@8458f04]" started-at="2024-08-22T16:36:43 IST" name="newcheck" data-provider="getData" finished-at="2024-08-22T16:36:43 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seconduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcheck -->
+        <test-method signature="newcheck(java.lang.String,java.lang.String)[pri:0, instance:TNGPkg.Day5@8458f04]" started-at="2024-08-22T16:36:43 IST" name="newcheck" data-provider="getData" finished-at="2024-08-22T16:36:43 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcheck -->
+      </class> <!-- TNGPkg.Day5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
